@@ -1,0 +1,22 @@
+---
+title: "Task 2"
+author: "Alex Reed"
+date: "2022-08-03"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+vec_a <- c(1, 6)
+vec_b <- c(2, 4)
+
+vec_a + vec_b
+vec_b - vec_a
+4 * vec_a
+vec_a %*% vec_b
+
+```
+
